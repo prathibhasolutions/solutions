@@ -1,0 +1,78 @@
+{% extends "website/layout.html" %}
+{% block body %}
+
+<!--first block-->
+
+<div class="container-fluid text-center p-4  bg-dark text-light">
+    <h3 style="font-weight: bold;">Website Design and Development</h3>
+</div>
+    <div class="container-fluid text-center pb-3 bg-dark text-light">
+    <h6 style="color:gray;text-align: center;padding-bottom: 10px;word-spacing: 3px;">Home /
+    <font color="green">Website Design and Development</font></h6>
+  </div>
+  
+
+  <!--second block-->
+
+  <div class="container-fluid text-center p-3">
+<h3 style="font-family: Geneva, ">Website Design and Development</h3><p style="font-family: Georgia">
+Developing Application To Automate Your Work <h5 style="text-align:center;">_ _ _</h5></p>
+  </div>
+
+  <!--end-->
+  <div class="container-fluid p-5">
+    <div class="row p-0">
+        <div class="col-md-4 ">
+           <h1>01</h1> 
+           <h4 style="font-family: verdana;">E-Commerce Website Development</h4><p style="padding-bottom: 10px;">
+            An ecommerce website is a digital platform where businesses and individuals
+            can showcase and sell  ...
+<br><br><a class="text-dark" href="{% url 'ecommerce'%}">
+Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+        </div>
+        <div class="col-md-4">
+            <h1>02</h1> 
+ <h4 style="font-family: verdana;">Corporate Website Development</h4><p style="padding-bottom: 10px;">
+  A corporate website is a digital platform created and maintained by a company
+  or organization to establish ...
+ <br><br><a class="text-dark" href="{% url 'corporatewebsite'%}">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+         </div>
+         <div class="col-md-4">
+            <h1>03</h1> 
+            <h4 style="font-family: verdana;">CMS Website Development</h4><p style="padding-bottom: 10px;">
+              A Content Management System (CMS) website is a dynamic online platform that 
+          enables users to easily create ...
+ <br><br><a class="text-dark" href="{% url 'cms'%}">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+         </div>
+         <div class="col-md-4">
+            <h1>04</h1> 
+            <h4 style="font-family: verdana;">Portals Development</h4><p style="padding-bottom: 10px;">
+              A portals website is an online platform designed to serve as a gateway 
+              or centralized access point ...
+
+              <br><br><a class="text-dark" href="{% url 'portals'%}">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+         </div>
+         <div class="col-md-4">
+            <h1>05</h1> 
+            <h4 style="font-family: verdana;">UI/UX Design & Development</h4><p style="padding-bottom: 10px;">
+              UI/UX development, the fusion of User Interface (UI) and User Experience (UX)
+              design, is the art and  ...
+ <br><br><a class="text-dark" href="{% url 'ui'%}">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p> 
+         </div>
+         <div class="col-md-4">
+            <h1>06</h1> 
+            <h4 style="font-family: verdana;">Landing Page Design And Development</h4><p style="padding-bottom: 10px;">
+              A landing page is a single web page designed with a specific purpose in mind,
+              typically as part of a digital ...
+ <br><br><a class="text-dark" href="{% url 'landing'%}">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+         </div>
+    </div>
+  </div>
+
+
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends "website/layout.html" %} {% block body %}
+<!--image-->
+
+<img src="https://wallpaper.dog/large/20426102.jpg" width="100%" />
+
+<!--first block-->
+<div class="container pt-5 text-center">
+  <h3>Hello, Welcome To Prathibha Solutions</h3>
+  <h6>Powering your Business Growth</h6>
+  <h5>_ _ _</h5>
+</div>
+<br />
+
+<div class="container pb-5 text-center">
+  <p>
+    Prathibha Solutions is a cutting-edge startup committed to provide
+    innovative software solutions that are designed to empower businesses and
+    individuals by simplifying complex tasks, boosting efficiency and enhancing
+    productivity.
+  </p>
+  <br />
+  <div>
+    <a type="button" href="{% url 'about' %}" class="btn btn-dark btn-md"
+      >MORE ABOUT US
+    </a>
+  </div>
+</div>
+
+<div class="container-fluid p-5 bg-light text-dark text-center pt-5 pb-5">
+  <h3>Unlocking Tomorrow's Solutions, Today</h3>
+  <p style="color: rgb(29, 5, 5)">
+    Simplifying Complexity, Amplifying Results.
+  </p>
+  <h5>_ _ _</h5>
+
+  <div class="row pt-4">
+    <div class="col-sm-8 col-md-4">
+      <h3>E-Commerce Website Development</h3>
+      <p style="font-size: medium; font-style: oblique; padding: 1cm">
+        An ecommerce website is a digital platform where businesses and
+        individuals can showcase and sell ... <br /><a
+          class="text-dark"
+          href="{% url 'ecommerce'%}"
+          >Learn More <i class="fa fa-long-arrow-right"></i
+        ></a>
+      </p>
+    </div>
+    <div class="col-sm-8 col-md-4">
+      <h3>UI/UX Design & Development</h3>
+      <p style="font-size: medium; font-style: oblique; padding: 1cm">
+        UI/UX development, the fusion of User Interface (UI) and User Experience
+        (UX) design, is the art and ...
+        <br /><a class="text-dark" href="{% url 'ui'%}">
+          Learn More <i class="fa fa-long-arrow-right"></i
+        ></a>
+      </p>
+    </div>
+    <div class="col-sm-8 col-md-4">
+      <h3>Portals Development</h3>
+      <p style="font-size: medium; font-style: oblique; padding: 1cm">
+        A portals website is an online platform designed to serve as a gateway
+        or centralized access point ... <br /><a
+          class="text-dark"
+          href="{% url 'portals' %}"
+        >
+          Learn More <i class="fa fa-long-arrow-right"></i
+        ></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends "website/layout.html" %}
+{% block body %}
+
+<!--first block-->
+
+<div class="container-fluid text-center p-4  bg-dark text-light">
+    <h3 style="font-weight: bold;">Graphic Design And Branding</h3>
+</div>
+    <div class="container-fluid text-center pb-3 bg-dark text-light">
+    <h6 style="color:gray;text-align: center;padding-bottom: 10px;word-spacing: 3px;">Home /
+    <font color="green">Graphic Design And Branding</font></h6>
+    
+  </div>
+  
+
+  <!--second block-->
+
+  <div class="container-fluid text-center p-3">
+<h3 style="font-family: Geneva, ">Graphic Design And Branding</h3><p style="font-family: Georgia">
+    Get More Customers With Better Graphics<h5 style="text-align:center;">_ _ _</h5></p>
+  </div>
+
+  <!--end-->
+  <div class="container-fluid p-5">
+    <div class="row p-0">
+        <div class="col-md-4 ">
+           <h1>01</h1> 
+           <h4 style="font-family: verdana;">Conceptual Logo Design</h4><p style="padding-bottom: 10px;">
+            A conceptual logo design is a visual representation that goes beyond the surface 
+            and delves into the core values ...
+<br><br><a class="text-dark" href="{% url 'conceptuallogo'%}"><a href="{% url 'corporate'%}" class="text-dark">
+Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+        </div>
+        <div class="col-md-4">
+            <h1>02</h1> 
+ <h4 style="font-family: verdana;">Corporate Identity</h4><p style="padding-bottom: 10px;">
+  Corporate identity refers to the distinct and consistent visual and verbal 
+  elements that collectively ...
+ <br><br><a class="text-dark" href="{% url 'corporate'%}"><a href="{% url 'corporate'%}" class="text-dark">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+         </div>
+         <div class="col-md-4">
+            <h1>03</h1> 
+            <h4 style="font-family: verdana;">Brochure And Catalogue</h4><p style="padding-bottom: 10px;">
+              Brochure catalogue design is a creative and strategic process of crafting
+              a visually engaging and  ...
+ <br><br><a class="text-dark" href="{% url 'brochure'%}">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+         </div>
+         <div class="col-md-4">
+            <h1>04</h1> 
+            <h4 style="font-family: verdana;">Pamphlets & Flyers</h4><p style="padding-bottom: 10px;">
+              Pamphlets and flyer design is the process of creating visually compelling, 
+          concise, and informative ...
+
+              <br><br><a class="text-dark" href="{% url 'pamphlets'%}">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p>
+         </div>
+         <div class="col-md-4">
+            <h1>05</h1> 
+            <h4 style="font-family: verdana;">Corporate Stationery Design</h4><p style="padding-bottom: 10px;">
+              Corporate stationery design involves creating a cohesive and visually appealing 
+              set of printed materials  ...
+ <br><br><a class="text-dark" href="{% url 'stationery'%}">
+ Learn More <i class="fa fa-long-arrow-right"></i></a></p> 
+         </div>
+         
+    </div>
+  </div>
+
+
+{% endblock %}
